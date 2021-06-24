@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3D6045C89CE4C6A535AD41 /* Pods_Hailie_sHaircut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A29646DF1A53CD45C9CECC /* Pods_Hailie_sHaircut.framework */; };
+		D80186E722F3BD8F00658E0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80186E622F3BD8F00658E0F /* ViewController.swift */; };
+		D80186EA22F3BD8F00658E0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80186E822F3BD8F00658E0F /* Main.storyboard */; };
+		D80186EC22F3BD8F00658E0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80186EB22F3BD8F00658E0F /* Assets.xcassets */; };
+		D80186EF22F3BD8F00658E0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80186ED22F3BD8F00658E0F /* LaunchScreen.storyboard */; };
+		D80186F722F3C1EA00658E0F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80186F622F3C1EA00658E0F /* Constants.swift */; };
+		D80186FA22F3C36200658E0F /* PatinioBasica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D80186F922F3C36200658E0F /* PatinioBasica.ttf */; };
+		D850ACA822F65FAA003A2AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80186E422F3BD8F00658E0F /* AppDelegate.swift */; };
+		D884940022F647CD00AF519E /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = D88493FF22F647CD00AF519E /* credentials.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59A29646DF1A53CD45C9CECC /* Pods_Hailie_sHaircut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hailie_sHaircut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80186E122F3BD8F00658E0F /* Hailie'sHaircut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hailie'sHaircut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80186E422F3BD8F00658E0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D80186E622F3BD8F00658E0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D80186E922F3BD8F00658E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80186EB22F3BD8F00658E0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80186EE22F3BD8F00658E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D80186F022F3BD8F00658E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80186F622F3C1EA00658E0F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D80186F922F3C36200658E0F /* PatinioBasica.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PatinioBasica.ttf; sourceTree = "<group>"; };
+		D88493FF22F647CD00AF519E /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		E990AA3E0324902698106E25 /* Pods-Hailie'sHaircut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hailie'sHaircut.release.xcconfig"; path = "Target Support Files/Pods-Hailie'sHaircut/Pods-Hailie'sHaircut.release.xcconfig"; sourceTree = "<group>"; };
+		F278DB5BF31863DB6DB5A36C /* Pods-Hailie'sHaircut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hailie'sHaircut.debug.xcconfig"; path = "Target Support Files/Pods-Hailie'sHaircut/Pods-Hailie'sHaircut.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80186DE22F3BD8F00658E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3D6045C89CE4C6A535AD41 /* Pods_Hailie_sHaircut.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0655765FACFE703E8DB99C74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F278DB5BF31863DB6DB5A36C /* Pods-Hailie'sHaircut.debug.xcconfig */,
+				E990AA3E0324902698106E25 /* Pods-Hailie'sHaircut.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4830BD760CF2BB86B096F437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59A29646DF1A53CD45C9CECC /* Pods_Hailie_sHaircut.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D80186D822F3BD8E00658E0F = {
+			isa = PBXGroup;
+			children = (
+				D80186E322F3BD8F00658E0F /* Hailie's Haircut */,
+				D80186E222F3BD8F00658E0F /* Products */,
+				0655765FACFE703E8DB99C74 /* Pods */,
+				4830BD760CF2BB86B096F437 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D80186E222F3BD8F00658E0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80186E122F3BD8F00658E0F /* Hailie'sHaircut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80186E322F3BD8F00658E0F /* Hailie's Haircut */ = {
+			isa = PBXGroup;
+			children = (
+				D88493FF22F647CD00AF519E /* credentials.plist */,
+				D80186F822F3C22400658E0F /* Fonts */,
+				D80186E422F3BD8F00658E0F /* AppDelegate.swift */,
+				D80186E622F3BD8F00658E0F /* ViewController.swift */,
+				D80186E822F3BD8F00658E0F /* Main.storyboard */,
+				D80186F622F3C1EA00658E0F /* Constants.swift */,
+				D80186EB22F3BD8F00658E0F /* Assets.xcassets */,
+				D80186ED22F3BD8F00658E0F /* LaunchScreen.storyboard */,
+				D80186F022F3BD8F00658E0F /* Info.plist */,
+			);
+			path = "Hailie's Haircut";
+			sourceTree = "<group>";
+		};
+		D80186F822F3C22400658E0F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D80186F922F3C36200658E0F /* PatinioBasica.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80186E022F3BD8F00658E0F /* Hailie'sHaircut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80186F322F3BD8F00658E0F /* Build configuration list for PBXNativeTarget "Hailie'sHaircut" */;
+			buildPhases = (
+				DD6B4C691FBBFB3AC9F3C517 /* [CP] Check Pods Manifest.lock */,
+				D80186DD22F3BD8F00658E0F /* Sources */,
+				D80186DE22F3BD8F00658E0F /* Frameworks */,
+				D80186DF22F3BD8F00658E0F /* Resources */,
+				7C74D019556C362A657DF8E8 /* [CP] Embed Pods Frameworks */,
+				27549D87609F912B4CB7E195 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hailie'sHaircut";
+			productName = "Hailie's Haircut";
+			productReference = D80186E122F3BD8F00658E0F /* Hailie'sHaircut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80186D922F3BD8E00658E0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Dhruv Seth";
+				TargetAttributes = {
+					D80186E022F3BD8F00658E0F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = D80186DC22F3BD8E00658E0F /* Build configuration list for PBXProject "Hailie'sHaircut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80186D822F3BD8E00658E0F;
+			productRefGroup = D80186E222F3BD8F00658E0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80186E022F3BD8F00658E0F /* Hailie'sHaircut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80186DF22F3BD8F00658E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80186FA22F3C36200658E0F /* PatinioBasica.ttf in Resources */,
+				D80186EF22F3BD8F00658E0F /* LaunchScreen.storyboard in Resources */,
+				D884940022F647CD00AF519E /* credentials.plist in Resources */,
+				D80186EC22F3BD8F00658E0F /* Assets.xcassets in Resources */,
+				D80186EA22F3BD8F00658E0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27549D87609F912B4CB7E195 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hailie'sHaircut/Pods-Hailie'sHaircut-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hailie'sHaircut/Pods-Hailie'sHaircut-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hailie'sHaircut/Pods-Hailie'sHaircut-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C74D019556C362A657DF8E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hailie'sHaircut/Pods-Hailie'sHaircut-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hailie'sHaircut/Pods-Hailie'sHaircut-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hailie'sHaircut/Pods-Hailie'sHaircut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6B4C691FBBFB3AC9F3C517 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hailie'sHaircut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80186DD22F3BD8F00658E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D850ACA822F65FAA003A2AF0 /* AppDelegate.swift in Sources */,
+				D80186E722F3BD8F00658E0F /* ViewController.swift in Sources */,
+				D80186F722F3C1EA00658E0F /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D80186E822F3BD8F00658E0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80186E922F3BD8F00658E0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D80186ED22F3BD8F00658E0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80186EE22F3BD8F00658E0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80186F122F3BD8F00658E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D80186F222F3BD8F00658E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80186F422F3BD8F00658E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F278DB5BF31863DB6DB5A36C /* Pods-Hailie'sHaircut.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hailie's Haircut/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DhruvSeth.Hailie-s-Haircut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D80186F522F3BD8F00658E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E990AA3E0324902698106E25 /* Pods-Hailie'sHaircut.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hailie's Haircut/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DhruvSeth.Hailie-s-Haircut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80186DC22F3BD8E00658E0F /* Build configuration list for PBXProject "Hailie'sHaircut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80186F122F3BD8F00658E0F /* Debug */,
+				D80186F222F3BD8F00658E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80186F322F3BD8F00658E0F /* Build configuration list for PBXNativeTarget "Hailie'sHaircut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80186F422F3BD8F00658E0F /* Debug */,
+				D80186F522F3BD8F00658E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80186D922F3BD8E00658E0F /* Project object */;
+}

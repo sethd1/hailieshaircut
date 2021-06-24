@@ -1,0 +1,6 @@
+framework module Pods_Hailie_sHaircut {
+  umbrella header "Pods-Hailie'sHaircut-umbrella.h"
+
+  export *
+  module * { export * }
+}
